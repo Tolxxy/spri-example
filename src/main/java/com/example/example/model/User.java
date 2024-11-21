@@ -8,20 +8,17 @@ public class User {
     @Id
     public Long id;
 
-    @NonNull
+  
     private String fullName;
 
-    @NonNull
+  
     private String password;
 
-    @NonNull
+  
     private String email;
     
 
-    // @OneToMany()
-    // private List<Course> courses;
 
-    // Getter and Setter methods
     public Long getId() {
         return id;
     }
